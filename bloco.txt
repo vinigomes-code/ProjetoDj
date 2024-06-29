@@ -1,0 +1,9 @@
+# python manage.py migrate - Aplicar as migrações pendentes ao banco de dados.
+# python manage.py makemigrations - criar novas migrações com base nas mudanças detectadas nos modelos (models) do Django
+# python manage.py startapp contas - CRIAR APP
+# python manage.py runserver -- RODAR A APLICAÇÃO
+# django-admin startproject nome = CRIAR O PROJETO
+# python manage.py createsuperuser
+
+
+

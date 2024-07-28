@@ -27,7 +27,7 @@ class RecipeViewsTest(RecipeTestBase):
         self.assertIn(
           '<h1>No recipes found here</h1>',
            response.content.decode('utf-8')
-           )
+           ) # assertIn: ver se uma coisa está dentro de outra
 
         # Tenho que escrever mais algumas coisas sobre o test
         self.fail('Para que eu termine de digitá-lo')

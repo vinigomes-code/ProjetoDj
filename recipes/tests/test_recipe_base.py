@@ -60,3 +60,6 @@ class RecipeTestBase(TestCase):
             preparation_step_is_html=preparation_step_is_html,
             is_published=is_published,
         )
+    
+# setUp: É executado sempre antes do metodo
+# tearDown: É executado sempre depois do metodo

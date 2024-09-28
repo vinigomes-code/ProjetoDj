@@ -1,0 +1,10 @@
+[pytest]
+DJANGO_SETTINGS_MODULE = project.settings   # CAMINHO PARA CONFIGURAÇÃO DO DJANGO 
+python_files = test.py tests.py test_*.py tests_*.py *_test.py *_tests.py # INDICANDO ARQUIVOS DE TESTE - * = Qualquer coisa  
+addopts =
+    --doctest-modules 
+    --strict-markers # Para restringir só a markers especificas que eu criar  
+    -rP
+markers =
+    slow: Run tests that are slow to
+    fast: Run fast tests
